@@ -1,0 +1,5 @@
+O diretorio app_lista_tarefas_public contem arquivos que devem ser mantidos no diretorio publico do servidor htdocs ou dependendo do diretorio que você escolher como publico.
+ATENÇÃO 
+por questões de segurança o diretorio  app_lista_tarefas deve ser mantido na pasta privada do servidor pois ela contem o codigo fonte que compõe o sistema antes de usar 
+ajuste as configurações da classe contoller e aponte o require para a apasta privada
+ou a interface não vai conseguir achar o backend.
